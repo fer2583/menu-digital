@@ -1,0 +1,91 @@
+
+<section id="burger">
+<h2>Hamburgesas</h2>
+  <mat-card class="promo" *ngFor="let menu of menus.hamburguesas">
+
+  <img [src]="menu.imagen" alt="Imagen de la promoción">
+  <div class="texto">
+    <div class="titulo">{{menu.nombre}}</div>
+    <div>{{menu.sumario}}</div>
+    <div class="precio">{{menu.precio | currency}}</div>
+  </div>
+
+  </mat-card>
+</section>
+
+<section id="sandwiches">
+<h2>Sandwiches Calientes</h2>
+  <mat-card class="promo" *ngFor="let menu of menus.sandwiches">
+
+  <img [src]="menu.imagen" alt="Imagen de la promoción">
+  <div class="texto">
+    <div class="titulo">{{menu.nombre}}</div>
+    <div>{{menu.sumario}}</div>
+    <div class="precio">{{menu.precio | currency}}</div>
+  </div>
+
+  </mat-card>
+</section>
+
+<section id="fritos">
+  <h2>Fritos</h2>
+  <mat-card class="promo" *ngFor="let menu of menus.fritos">
+
+  <img [src]="menu.imagen" alt="Imagen de la promoción">
+  <div class="texto">
+    <div class="titulo">{{menu.nombre}}</div>
+    <div>{{menu.sumario}}</div>
+    <div class="precio">{{menu.precio | currency}}</div>
+  </div>
+
+  </mat-card>
+</section>
+
+<section id="pizzas">
+
+  <h2>Pizzas y Empanadas</h2>
+  <mat-card class="promo" *ngFor="let menu of menus.pizzas">
+
+  <img [src]="menu.imagen" alt="Imagen de la promoción">
+  <div class="texto">
+    <div class="titulo">{{menu.nombre}}</div>
+    <div>{{menu.sumario}}</div>
+    <div class="precio">{{menu.precio | currency}}</div>
+  </div>
+
+  </mat-card>
+</section>
+
+<section id="bebidas">
+  <h2>Bebidas</h2>
+  <mat-card class="promo" *ngFor="let menu of menus.bebidas">
+
+  <img [src]="menu.imagen" alt="Imagen de la promoción">
+  <div class="texto">
+    <div class="titulo">{{menu.nombre}}</div>
+    <div>{{menu.sumario}}</div>
+    <div class="precio">{{menu.precio | currency}}</div>
+  </div>
+
+  </mat-card>
+
+</section>
+
+<section id="licuados">
+  <h2>Licuados y Tragos</h2>
+  <mat-card class="promo" *ngFor="let menu of menus.licuados">
+
+  <img [src]="menu.imagen" alt="Imagen de la promoción">
+  <div class="texto">
+    <div class="titulo">{{menu.nombre}}</div>
+    <div>{{menu.sumario}}</div>
+    <div class="precio">{{menu.precio | currency}}</div>
+  </div>
+
+  </mat-card>
+</section>
+
+  <div class="margenInf"></div>
+
+
+

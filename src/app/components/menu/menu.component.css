@@ -1,0 +1,40 @@
+.promo {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  margin-bottom: 5px;
+  background-color: rgb(55 55 55);
+  width: 98%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+img {
+  width: 15%;
+}
+
+h2 {
+  text-align: center;
+  color: bisque;
+}
+
+.texto{
+  width: 100%;
+  margin-left: 5px;
+}
+
+.precio{
+  color:rgb(100, 177, 100);
+  text-align: right;
+  font-weight: 600;
+}
+
+.titulo {
+  font-weight: 500;
+  color: bisque;
+}
+
+.margenInf {
+  padding-bottom: 15px;
+}
+

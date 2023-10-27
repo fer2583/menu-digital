@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  list-style-type: none;
+  padding-top: 10px;
+  border-bottom: 2px solid bisque;
+  padding-bottom: 8px;
+  background-color: black;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mdc-button--raised {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 4px 0 4px;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+  background-color: #464647;
+}

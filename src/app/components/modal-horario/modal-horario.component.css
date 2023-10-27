@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.horario {
+  display: flex;
+  justify-content: space-between;
+}
