@@ -28,7 +28,7 @@ export class CabeceraComponent {
       navigator.share({
         title: "Parador Lo de Ñalpa",
         text: 'Echa un vistazo al menú de nuestro Parador.',
-        url: 'https://tusitio.com/menu'
+        url: 'https://fer2583.github.io/menu-digital/'
       })
       .then(() => console.log('Contenido compartido'))
       .catch((error) => console.error('Error al compartir', error));
